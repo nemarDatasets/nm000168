@@ -1,0 +1,188 @@
+_dataset:
+  class: BNCI2015_013
+  code: BNCI2015-013
+  doi: 10.1109/TNSRE.2010.2053387
+  interval:
+  - 0
+  - 0.6
+  n_subjects: 6
+  paradigm: p300
+acquisition:
+  channel_types:
+    eeg: 64
+  hardware: Biosemi ActiveTwo
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 64
+  sampling_rate: 512.0
+  sensor_type: active
+  sensors:
+  - Fp1
+  - AF7
+  - AF3
+  - F1
+  - F3
+  - F5
+  - F7
+  - FT7
+  - FC5
+  - FC3
+  - FC1
+  - C1
+  - C3
+  - C5
+  - T7
+  - TP7
+  - CP5
+  - CP3
+  - CP1
+  - P1
+  - P3
+  - P5
+  - P7
+  - P9
+  - PO7
+  - PO3
+  - O1
+  - Iz
+  - Oz
+  - POz
+  - Pz
+  - CPz
+  - Fpz
+  - Fp2
+  - AF8
+  - AF4
+  - AFz
+  - Fz
+  - F2
+  - F4
+  - F6
+  - F8
+  - FT8
+  - FC6
+  - FC4
+  - FC2
+  - FCz
+  - Cz
+  - C2
+  - C4
+  - C6
+  - T8
+  - TP8
+  - CP6
+  - CP4
+  - CP2
+  - P2
+  - P4
+  - P6
+  - P8
+  - P10
+  - PO8
+  - PO4
+  - O2
+bci_application:
+  applications:
+  - error_detection
+  environment: laboratory
+cross_validation:
+  cv_method: train-test split
+  evaluation_type:
+  - cross_session
+data_structure:
+  block_duration_s: 180.0
+  n_blocks: 10
+  n_trials: ~50 trials per block, ~64 trials per block for error_prob=0.20
+  trials_context: per_block
+documentation:
+  contact_info:
+  - ricardo.chavarriaga@epfl.ch
+  - jose.millan@epfl.ch
+  country: CH
+  description: Dataset on EEG error-related potentials (ErrPs) elicited when users monitor the behavior of an external autonomous
+    agent. One of the first studies showing that error correlates can be observed and decoded during monitoring of external
+    agents without user control.
+  doi: 10.1109/TNSRE.2010.2053387
+  funding:
+  - EC under Contract BACS FP6-IST-027140
+  institution: Ecole Polytechnique Fédérale de Lausanne
+  institution_department: Defitech Chair in Brain-Machine Interface, CNBI, Center for Neuroprosthetics
+  investigators:
+  - Ricardo Chavarriaga
+  - José del R. Millán
+  keywords:
+  - error-related potentials
+  - ErrP
+  - brain-computer interface
+  - reinforcement learning
+  - monitoring
+  - error detection
+  license: CC-BY-NC-ND-4.0
+  publication_year: 2010
+  repository: BNCI Horizon
+  senior_author: José del R. Millán
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    correct_left: 5
+    correct_right: 10
+    error_left: 6
+    error_right: 9
+  feedback_type: visual
+  has_training_test_split: true
+  instructions: Subjects seat in front of a computer screen and monitor a moving cursor (green square) and target location
+    (blue for left, red for right). No control over cursor movement, only assess whether it performs properly. Fixate center
+    of screen.
+  mode: offline
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: cursor_movement
+  study_design: Error-related potential (ErrP) monitoring task where subjects observe a cursor moving towards a target. The
+    cursor moves autonomously with 20% or 40% error probability. Subjects monitor performance without control.
+  synchronicity: synchronous
+  task_type: monitoring
+  trial_duration: 2.0
+file_format: matlab
+paradigm_specific:
+  detected_paradigm: p300
+participants:
+  age_mean: 27.83
+  age_std: 2.23
+  bci_experience: not reported
+  clinical_population: Healthy
+  gender:
+    female: 1
+    male: 5
+  handedness: not reported
+  health_status: patients
+  n_subjects: 6
+  species: human
+performance:
+  accuracy_percent: 75.8
+  correct_recognition_rate: 63.2
+  error_recognition_rate: 75.8
+preprocessing:
+  data_state: raw
+runs_per_session: 1
+sessions_per_subject: 20
+signal_processing:
+  classifiers:
+  - Gaussian classifier
+  feature_extraction:
+  - event-related potentials
+  frequency_bands:
+    analyzed_range:
+    - 1.0
+    - 10.0
+tags:
+  modality:
+  - Cognitive
+  pathology:
+  - Healthy
+  type:
+  - ErrP
