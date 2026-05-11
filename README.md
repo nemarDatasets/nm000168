@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000168-blue)](https://doi.org/10.82901/nemar.nm000168)
+
 # BNCI 2015-013 Error-Related Potentials dataset
 
 BNCI 2015-013 Error-Related Potentials dataset.
