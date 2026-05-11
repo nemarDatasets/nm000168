@@ -1,36 +1,38 @@
 {
-	"Name": "BNCI 2015-013 Error-Related Potentials dataset",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-NC-ND-4.0",
-	"Authors": [
-		"Ricardo Chavarriaga",
-		"Jos\u00e9 del R. Mill\u00e1n"
-	],
-	"Funding": [
-		"EC under Contract BACS FP6-IST-027140"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1109/TNSRE.2010.2053387"
-		}
-	],
-	"Keywords": [
-		"error-related potentials",
-		"ErrP",
-		"brain-computer interface",
-		"reinforcement learning",
-		"monitoring",
-		"error detection"
-	],
-	"PublicationYear": 2010
+  "Name": "BNCI 2015-013 Error-Related Potentials dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-ND-4.0",
+  "Authors": [
+    "Ricardo Chavarriaga",
+    "José del R. Millán"
+  ],
+  "Funding": [
+    "EC under Contract BACS FP6-IST-027140"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1109/TNSRE.2010.2053387"
+    }
+  ],
+  "Keywords": [
+    "error-related potentials",
+    "ErrP",
+    "brain-computer interface",
+    "reinforcement learning",
+    "monitoring",
+    "error detection"
+  ],
+  "PublicationYear": 2010,
+  "DatasetDOI": "10.82901/nemar.nm000168",
+  "Version": "1.0.0"
 }
