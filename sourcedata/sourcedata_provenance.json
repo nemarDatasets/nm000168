@@ -1,0 +1,75 @@
+{
+ "dataset": "nm000168",
+ "moabb_class": "BNCI2015_013",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.BNCI2015_013.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-bnci-data/~bci/database/013-2015",
+ "license": "CC-BY-NC-ND-4.0",
+ "doi": "10.1109/TNSRE.2010.2053387",
+ "naming": "upstream_filenames_restored",
+ "n_files": 12,
+ "total_bytes": 3416997751,
+ "files": [
+  {
+   "file": "Subject01_s1.mat",
+   "bytes": 269644558,
+   "sha256": "eec75a59a3cb316fad923b7446a1c2fc4dcfc800a1647130063105f9d528594b"
+  },
+  {
+   "file": "Subject01_s2.mat",
+   "bytes": 261040751,
+   "sha256": "d0678aa638772753283b174c118b00e8b639b7fef367ccb03bf0ef28c63fe34a"
+  },
+  {
+   "file": "Subject02_s1.mat",
+   "bytes": 265085116,
+   "sha256": "a13d90606901f65f9a5c234d0228bfc7f4133082b6c652949f97dd4d2817f70a"
+  },
+  {
+   "file": "Subject02_s2.mat",
+   "bytes": 259522116,
+   "sha256": "33a1afd23bdd96486732c89a4888f8a7fc1fcb609bc654b8a64604f10e24ca14"
+  },
+  {
+   "file": "Subject03_s1.mat",
+   "bytes": 240489597,
+   "sha256": "d167e37f96ece6c9101b009ef09adfdd6588993b8100138161a21b2c48029b63"
+  },
+  {
+   "file": "Subject03_s2.mat",
+   "bytes": 255208946,
+   "sha256": "d86d93f926df183c7948e0ee7cd07c87d6bd72f3a914fa1fc1a8c4646a446200"
+  },
+  {
+   "file": "Subject04_s1.mat",
+   "bytes": 362356809,
+   "sha256": "c9a3195462c12ac84c94b1996d1ee85ee6a7da0099d772f1c6fdd9dde8a7a97f"
+  },
+  {
+   "file": "Subject04_s2.mat",
+   "bytes": 299789088,
+   "sha256": "90b8dc5a558695b88f9c3e11bef3f38ccc4d25dded64bfac0508c747827a02e8"
+  },
+  {
+   "file": "Subject05_s1.mat",
+   "bytes": 256008782,
+   "sha256": "b9f39fb8de7646e2082a083c9a5a140a8dfd50e8545bf0e90e486a762aaa0a95"
+  },
+  {
+   "file": "Subject05_s2.mat",
+   "bytes": 280920562,
+   "sha256": "bf8d3ee17c27e96aa0b93d0fcd049d22beb92354b2f2fc038795d3bcaec2476c"
+  },
+  {
+   "file": "Subject06_s1.mat",
+   "bytes": 281694891,
+   "sha256": "a73a615d0491653638868f54f379f7183d233f9bff8d1d5ee35496b5c18c04b4"
+  },
+  {
+   "file": "Subject06_s2.mat",
+   "bytes": 385236535,
+   "sha256": "e199a960456be67b02c2c47d0bd3c845f47f08bf7373862dcb8414cfe1c5d189"
+  }
+ ]
+}
