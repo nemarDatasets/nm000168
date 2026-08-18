@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2015-013 Error-Related Potentials dataset",
-  "description": "This dataset comprises EEG recordings from 6 healthy subjects performing an error-related potential (ErrP) monitoring task. Subjects observed a cursor moving autonomously toward targets with 20-40% error probability while maintaining fixation, without direct control over cursor movement. The study demonstrates that error-related brain potentials can be detected and decoded during passive monitoring of external agents, providing foundational evidence for error-monitoring in brain-computer interface applications.",
-  "methods_description": "EEG data were acquired from 64 channels using a Biosemi ActiveTwo system at 512 Hz sampling rate with standard 10-20 montage. Subjects performed 20 sessions each, with 10 blocks per session. Each block contained approximately 50-64 trials with 2-second trial duration. Visual stimuli consisted of a moving cursor (green square) and target locations (blue/red), with subjects instructed to monitor performance without providing control input.",
+  "description": "This dataset comprises EEG recordings from 6 healthy subjects performing an error-related potential (ErrP) monitoring task where participants observe an autonomous cursor moving toward targets with controlled error rates (20-40%). The study demonstrates that error-related brain potentials can be detected and decoded during passive monitoring of external agents without direct user control, providing foundational evidence for error monitoring in brain-computer interface applications.",
+  "methods_description": "EEG data were acquired from 64 active electrodes using a Biosemi ActiveTwo system at 512 Hz sampling rate. Subjects performed a visual monitoring task observing cursor movements with 20% or 40% error probability across 20 sessions of 10 blocks each. Event-related potentials were analyzed in the 1-10 Hz frequency band using Gaussian classifiers.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -33,7 +33,10 @@
       "term": "reinforcement learning"
     },
     {
-      "term": "P300"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     }
   ],
   "related_identifiers": [
@@ -87,5 +90,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "f828003c08b025227de0a47484ec22a4056c24e997577a0cdb096fff61546b5a"
+  "source_hash": "39ba8b8042468c19683e0fb1e43741e496a39f27ec81f2b03372cf0abdc141ff"
 }
