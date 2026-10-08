@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2015-013 Error-Related Potentials dataset",
-  "description": "EEG dataset of error-related potentials (ErrPs) recorded from 6 healthy participants who monitored a cursor moving autonomously toward a target, with error probabilities of 20% or 40%. Participants had no control over the cursor. The recordings show that error correlates can be observed and decoded when users monitor an external agent. Data were acquired with 64 channels at 512 Hz over 20 sessions per subject.",
-  "methods_description": "EEG was recorded with a Biosemi ActiveTwo system (64 active electrodes, 512 Hz). Participants sat in front of a screen and watched a green square cursor move toward a left (blue) or right (red) target while fixating on the screen center. Each session had 10 blocks of about 180 s. The cursor moved autonomously with 20% or 40% error probability. Analysis used a Gaussian classifier on event-related potentials in the 1-10 Hz band.",
+  "description": "EEG dataset of error-related potentials (ErrPs) recorded from six participants while they monitored a cursor moving autonomously toward a target, with 20% or 40% error probability. Participants had no control over the cursor, showing that error correlates can be observed and decoded when monitoring an external agent. Recordings were made with 64 channels at 512 Hz across 20 sessions per subject, and the data support single-trial error detection for brain-computer interfaces.",
+  "methods_description": "64-channel EEG was recorded with a Biosemi ActiveTwo system at 512 Hz. Participants sat in front of a screen and watched a cursor (green square) move toward a left or right target without controlling it. Each session had 10 blocks of about 180 s, and the cursor moved with 20% or 40% error probability. Events were labelled Target and NonTarget, and a Gaussian classifier was applied to event-related potentials in the 1-10 Hz band.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -24,10 +24,17 @@
       "term": "error detection"
     },
     {
-      "term": "monitoring"
+      "term": "performance monitoring"
     },
     {
-      "term": "reinforcement learning"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     }
   ],
   "related_identifiers": [
@@ -82,5 +89,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "39ba8b8042468c19683e0fb1e43741e496a39f27ec81f2b03372cf0abdc141ff"
+  "source_hash": "cbd451e7e9dcf65bf416c2574463ad65ba5561a2cd96b1cefb6a0d523cdef7c1"
 }
